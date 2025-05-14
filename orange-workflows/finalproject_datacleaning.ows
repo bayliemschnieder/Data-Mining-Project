@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(124.0, 183.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(261.0, 184.0)" />
+		<node id="2" name="Edit Domain" qualified_name="Orange.widgets.data.oweditdomain.OWEditDomain" project_name="Orange3" version="" title="Edit Domain" position="(412.0, 185.0)" />
+		<node id="3" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(537.0, 184.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': '/Users/cassadyjackson/Downloads/ObesityDataSet_raw_and_data_sinthetic.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 17, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': '/Users/cassadyjackson/Downloads/ObesityDataSet_raw_and_data_sinthetic (1).csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 17, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': '/Users/cassadyjackson/Downloads', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xb4\x00\x00\x01Y\x00\x00\x03\x05\x00\x00\x02\xd0\x00\x00\x01\xb4\x00\x00\x01u\x00\x00\x03\x05\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x00\x05\xe8\x00\x00\x01\xb4\x00\x00\x01u\x00\x00\x03\x05\x00\x00\x02\xd0', '__version__': 3}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xfd\x00\x00\x00G\x00\x00\x04\xea\x00\x00\x03I\x00\x00\x00\xfd\x00\x00\x00c\x00\x00\x04\xea\x00\x00\x03I\x00\x00\x00\x00\x00\x00\x00\x00\x05\xe8\x00\x00\x00\xfd\x00\x00\x00c\x00\x00\x04\xea\x00\x00\x03I', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVsgQAAAAAAAB9lCiMFF9kb21haW5fY2hhbmdlX2hpbnRzlH2UKIwEUmVhbJSMBkhlaWdodJRL
+A4wBZpSGlCmHlIaUXZSMBlJlbmFtZZSMDUhlaWdodF9NZXRlcnOUhZSGlGFoA4wGV2VpZ2h0lEsD
+aAWGlCmHlIaUXZRoCowJV2VpZ2h0X0tHlIWUhpRhjAtDYXRlZ29yaWNhbJSMHmZhbWlseV9oaXN0
+b3J5X3dpdGhfb3ZlcndlaWdodJSMAm5vlIwDeWVzlIaUKYeUhpRdlGgKjA5GYW1pbHkgSGlzdG9y
+eZSFlIaUYWgWjARGQVZDlIwCbm+UjAN5ZXOUhpQph5SGlF2UaAqMCEhpZ2hfQ2FslIWUhpRhaAOM
+BENIMk+USwNoBYaUKYeUhpRdlGgKjAxXYXRlcl9JbnRha2WUhZSGlGFoA4wDTkNQlEsDaAWGlCmH
+lIaUXZRoCowNTWVhbHNfcGVyX0RheZSFlIaUYWgWjARDQUVDlCiMBkFsd2F5c5SMCkZyZXF1ZW50
+bHmUjAlTb21ldGltZXOUjAJub5R0lCmHlIaUXZRoCowPU25hY2tfRnJlcXVlbmN5lIWUhpRhaAOM
+BEZDVkOUSwNoBYaUKYeUhpRdlGgKjBZTZXJ2aW5nc19vZl9WZWdldGFibGVzlIWUhpRhaBaMA1ND
+Q5SMAm5vlIwDeWVzlIaUKYeUhpRdlGgKjBBNb25pdG9yX0NhbG9yaWVzlIWUhpRhaAOMA0ZBRpRL
+A2gFhpQph5SGlF2UaAqMCEV4ZXJjaXNllIWUhpRhaAOMA1RVRZRLA2gFhpQph5SGlF2UaAqMDlRl
+Y2hub2xvZ3lfVXNllIWUhpRhaBaMBENBTEOUKIwGQWx3YXlzlIwKRnJlcXVlbnRseZSMCVNvbWV0
+aW1lc5SMAm5vlHSUKYeUhpRdlGgKjBNBbGNvaG9sX0NvbnN1bXB0aW9ulIWUhpRhaBaMBk1UUkFO
+U5QojApBdXRvbW9iaWxllIwEQmlrZZSMCU1vdG9yYmlrZZSMFVB1YmxpY19UcmFuc3BvcnRhdGlv
+bpSMB1dhbGtpbmeUdJQph5SGlF2UaAqME1ByZWZfVHJhbnNwb3J0YXRpb26UhZSGlGFoFowKTk9i
+ZXllc2RhZJQojBNJbnN1ZmZpY2llbnRfV2VpZ2h0lIwNTm9ybWFsX1dlaWdodJSMDk9iZXNpdHlf
+VHlwZV9JlIwPT2Jlc2l0eV9UeXBlX0lJlIwQT2Jlc2l0eV9UeXBlX0lJSZSMEk92ZXJ3ZWlnaHRf
+TGV2ZWxfSZSME092ZXJ3ZWlnaHRfTGV2ZWxfSUmUdJQph5SGlF2UaAqMDU9iZXNpdHlfTGV2ZWyU
+hZSGlGF1jBZfbWVyZ2VfZGlhbG9nX3NldHRpbmdzlH2UjBJjb250cm9sQXJlYVZpc2libGWUiIwR
+b3V0cHV0X3RhYmxlX25hbWWUjACUjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAHF
+AAAAiwAABFgAAAMNAAABxQAAAKcAAARYAAADDQAAAAAAAAAABegAAAHFAAAApwAABFgAAAMNlIwL
+X192ZXJzaW9uX1+USwR1Lg==
+</properties>
+		<properties node_id="3" format="literal">{'add_type_annotations': True, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02l\x00\x00\x01u\x00\x00\x03\xf1\x00\x00\x02\x17\x00\x00\x02l\x00\x00\x01\x91\x00\x00\x03\xf1\x00\x00\x02\x17\x00\x00\x00\x00\x00\x00\x00\x00\x05\xe8\x00\x00\x02l\x00\x00\x01\x91\x00\x00\x03\xf1\x00\x00\x02\x17', 'stored_name': 'Cleaned_Obesity_Data.csv', 'stored_path': '.', '__version__': 3}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
